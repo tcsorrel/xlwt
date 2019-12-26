@@ -702,7 +702,7 @@ class Workbook(object):
           This can be a string containing a filename of
           the file, in which case the excel file is saved to disk using the name
           provided. It can also be a stream object with a write method, such as
-          a :class:`~io.StringIO`, in which case the data for the excel
+          a :class:`~io.BytesIO`, in which case the data for the excel
           file is written to the stream.
         """
         from . import CompoundDoc
